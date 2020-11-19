@@ -17,4 +17,10 @@ SELECT *
 From Recipe r
 JOIN RecipeIngredient ri on ri.recipe_id = r.id  
 JOIN Ingredient i on i.id = ri.ingredient_id 
-WHERE i.name = ???
+WHERE i.name = 'Honey'
+
+/*  Here's an update query I wrote to correct the bread entries */
+
+UPDATE RecipeIngredient
+SET measure_id=4
+WHERE ingredient_id=17
