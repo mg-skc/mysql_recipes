@@ -9,7 +9,7 @@ create table RecipeIngredient (recipe_id INT NOT NULL, ingredient_id INT NOT NUL
 	ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 
 
-INSERT INTO measure (name) VALUES('CUP'), ('TEASPOON'), ('TABLESPOON'), ('WHOLE');
+INSERT INTO Measure (name) VALUES('CUP'), ('TEASPOON'), ('TABLESPOON'), ('WHOLE');
 
 INSERT INTO Ingredient (name) VALUES('egg'), ('salt'), ('sugar'), ('chocolate'), ('vanilla extract'), ('flour');
 
